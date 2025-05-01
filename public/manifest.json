@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Quote Tab",
+  "version": "1.0",
+  "description": "Displays inspirational quotes on a new tab",
+  "permissions": [],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

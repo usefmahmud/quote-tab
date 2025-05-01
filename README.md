@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+# Quote Tab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful browser extension that displays inspiring quotes every time you open a new tab. Currently under development.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display inspiring quotes on every new tab
+- Clean and minimalist design
+- Offline support (coming soon)
+- Customizable themes (coming soon)
+- Quote categories selection (coming soon)
 
-## Expanding the ESLint configuration
+## 🚀 Try it Now
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Web Version
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+You can try the web version of Quote Tab at:
+[https://quote-tab.vercel.app/](https://quote-tab.vercel.app/)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Chrome Extension Installation (Developer Mode)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Since the extension is still under development, you can install it manually:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Download the latest release (compressed file)
+2. Extract the downloaded file to a folder on your computer
+3. Open Chrome and go to `chrome://extensions/`
+4. Enable "Developer mode" in the top right corner
+5. Click "Load unpacked" and select the extracted folder
+6. Open a new tab to see Quote Tab in action!
+
+## 🛠️ Development Status
+
+Quote Tab is currently in active development. New features and improvements are being added regularly. Feel free to try out the web version to get a preview of what's coming to the extension.
+
+## 🔮 Upcoming Features
+
+- [ ] Customizable backgrounds
+- [ ] Quote sharing functionality
+- [ ] Personal quote collection
+- [ ] Multiple language support
+- [ ] Dark/Light mode toggle
+
+## 📝 Feedback
+
+Since the project is under development, your feedback is valuable! Feel free to report any issues or suggest features you'd like to see.
+
+## 🔒 Privacy
+
+Quote Tab respects your privacy:
+
+- No personal data collection
+- No tracking
+- No advertisements
+
+## 📜 License
+
+This project is under development. License information will be added soon.
+
+---
+
+_Quote Tab - Transform your new tab into a source of daily inspiration_
